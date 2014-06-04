@@ -1,0 +1,65 @@
+body
+{
+margin:0;
+padding:0;
+    font-family: arial;
+    font-size: 11pt;  
+}
+
+ 
+#myform
+{
+width:400px;
+border:2px solid grey;
+padding:14px;
+margin-right:auto;
+margin-left:auto;
+
+}
+ 
+.mystyle
+{
+border-bottom:1px solid grey;
+padding:5px 0 5px 0;
+margin:0 0 10px 0;
+}
+ 
+#myform label
+{
+float:left;
+width:200px;
+text-align:right;
+display:block;
+}
+ 
+#myform span
+{
+color:grey;
+width:200px;
+text-align:right;
+display:block;
+}
+ 
+#myform input
+{
+border:1px solid grey;
+color:grey;
+height:20px;
+width:150px;
+margin:5px 0 20px 10px;
+}
+ 
+#myform button
+{
+clear:both;
+margin-left:150px;
+background:grey;
+color:#FFFFFF;
+border:solid 1px #666666;
+ 
+}
+
+#login-div
+{
+	text-align: center;
+}

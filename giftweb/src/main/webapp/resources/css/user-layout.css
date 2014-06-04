@@ -1,0 +1,134 @@
+#container{
+	margin-left: auto;
+	margin-right: auto;
+    width: 80%;
+    font-family: arial;
+    font-size: 11pt;
+    color: #3D3C3A; 
+	background: white;    
+}
+#toppanel {
+	height: 10%;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #DDDDDD;
+  	margin-bottom: 1.467em;
+  	overflow: hidden;
+}
+
+#bottompanel {
+	height: 70%;
+	width: 100%;
+	float: left;
+}
+
+#bottomleftpanel {
+	width: 20%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #DDDDDD;
+}
+
+#bottomcenterpanel {
+	margin-left: 20px;
+	margin-right: auto;
+	width: 60%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #DDDDDD;
+}
+
+#bottomrightpanel {
+	width: 17%;
+	height: 100%;
+	background: grey;
+	float: right;
+	#position: absolute;
+	#display: inline-block; 
+}
+
+#footer {
+	width: 100%;
+	height: 15%;
+	border-top: 1px solid #DDDDDD;
+  	margin-top: 1.467em;
+  	overflow: hidden;
+}
+
+#blocks {
+  -moz-column-count: 3;
+  -moz-column-gap: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 0;
+  column-count: 3;
+  column-gap: 0;
+  width: 90%;
+}
+#blocks div {
+  width: 100%;
+  box-shadow: 10px 10px 5px #888888;
+  border-style: solid; 
+}
+#divider {
+  width: 100%;
+  margin: 10px auto;
+  height: 1px;
+  background-color: #999;
+  float: bottom
+}
+
+#prodtable {
+	width: 100%;
+    font-family: arial;
+    font-size: 10pt;
+    color: #3D3C3A; 
+    #table-layout: fixed;	
+}
+
+.ptcell {
+	padding: 2px;
+	vertical-align: middle;
+	text-align: center;
+	align: center;
+}
+
+li {
+    margin: 2;
+    padding: 1em;
+    list-style-type: none;
+}
+
+.ptext {
+	font-family: arial;
+    font-size: 10pt;
+    color: #3D3C3A; 
+}
+
+#hdleft {
+	float: left;
+}
+
+#hdright {
+	width: 15%;
+	float: right;
+}
+
+#rhlinks {
+	overflow:hidden;
+}
+
+#cartdiv {
+	width: 30%;
+	text-align: center;
+	float: left;
+}
+
+#signindiv {
+	width: 30%;
+	float: left;
+}
+
+#wlistdiv {
+	width: 30%;
+	float: right;
+}

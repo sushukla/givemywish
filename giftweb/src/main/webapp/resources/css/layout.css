@@ -1,0 +1,262 @@
+#container{
+	margin-left: auto;
+	margin-right: auto;
+    width: 80%;
+    font-family: arial;
+    font-size: 11pt; 
+    color: #3D3C3A; 
+	background: white;   
+}
+#toppanel {
+	height: 10%;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #DDDDDD;
+  	margin-bottom: 1.467em;
+  	overflow: hidden;
+}
+
+#toppanelhome {
+	height: 10%;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #DDDDDD;
+  	overflow: hidden;
+}
+
+#bannerpanelhome {
+	height: 21%;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #DDDDDD;
+  	margin-bottom: 1.467em;
+  	#overflow: hidden;
+}
+
+#bottompanel {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #DDDDDD;
+  	margin-bottom: 1.467em;
+}
+
+#bottomleftpanel {
+	width: 79%;
+	#height: 78%;
+	float: left;
+	border-right: 1px solid #DDDDDD;
+}
+
+#bottomrightpanel {
+	margin-left: 20px;
+	margin-right: auto;
+	width: 19%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #DDDDDD;
+}
+
+#bottomcats {
+	height: 30%;
+	width: 100%;
+	float:left;
+	border-bottom: 1px solid #DDDDDD;
+  	margin-bottom: 1em;
+}
+
+#bestsellerCarousel {
+	height: 35%;
+	width: 100%;
+	float:left;
+	border-bottom: 1px solid #DDDDDD;
+  	margin-bottom: 1em;
+}
+
+#bestsellerBanner {
+	height: 15%;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+div#bcarousel div {
+	float:left;
+	 display: inline;
+	 margin: 0 1em 0 1em;
+	 width: 13%;
+}
+
+div#catcarousel div {
+	float:left;
+	#display: inline;
+	margin: 0 1em 0 1em;
+	width: 19%;
+}
+
+#carousel-left-arrow {
+    float: left;
+    position: relative;
+}
+
+#carousel-content {
+    float: left;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+#carousel-right-arrow {
+    position: relative;
+    float: right;
+}
+
+#footer {
+	position: fixed;
+	width: 100%;
+	background: yellow;
+	bottom: 0;
+	height: 15%;
+	border-top: 1px solid #DDDDDD;
+}
+
+#blocks {
+  -moz-column-count: 3;
+  -moz-column-gap: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 0;
+  column-count: 3;
+  column-gap: 0;
+  width: 90%;
+}
+#blocks div {
+  width: 100%;
+  box-shadow: 10px 10px 5px #888888;
+  border-style: solid; 
+}
+
+li {
+    margin: 2;
+    padding: 1em;
+    list-style-type: none;
+}
+
+#itempic {
+	width: 40%;
+	float: left;
+}
+
+#itemdetails {
+	width: 40%;
+	float: left;
+}
+
+#cart {
+	width: 70%;
+	float: left;
+}
+
+#carttop {
+	width: 70%;
+	height: 12%;
+	float: left;
+}
+
+#cartsummary {
+	width: 200px;
+	height: 400px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DDDDDD;
+	text-align: center ;
+}
+
+#cartlabel {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+#cartitemimg {
+	height: 100px;
+	width: 20%;
+	float: left;
+}
+
+#cartitemdesc {
+	height: 100px;
+	width: 80%;
+	float: right;
+}
+
+#addbutton {
+	width: 120px;
+	height: 20px;
+	background-color: orange;
+}
+
+#tmargin {
+	padding: 5px;
+}
+
+#hdleft {
+	float: left;
+}
+
+#hdright {
+	width: 20%;	
+	float: right;
+}
+
+#srchhdright {
+	width: 30%;	
+	float: right;
+}
+
+#hdbottom {
+	width: 100%;
+	margin-top: 1em;
+	float: left;
+}
+
+#loginform {
+	width: 400px;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DDDDDD;
+	text-align: center ;
+}
+
+#rhlinks {
+	overflow:hidden;
+}
+
+#cartdiv {
+	width: 30%;
+	text-align: center;
+	float: left;
+}
+
+#signindiv {
+	width: 30%;
+	float: left;
+}
+
+#wlistdiv {
+	width: 30%;
+	float: right;
+}
+
+#homecats {
+	height: 10px;
+	float: left;
+}
+
+#catlink {
+	margin-right: 1em;
+}
+
+#srchbox {
+	width: 350px;
+	height: 30px;
+}
+}
