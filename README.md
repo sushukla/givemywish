@@ -4,9 +4,9 @@ givemywish
 Repository for Project Wish
 
 To Run the Application:
-- Sun JDK 7 should be present on the system, 
-- Download Eclipse EE (kepler or above, supporting JDK 7) from eclipse site - https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2
-- Setup tomcat 7 and above as server runtime for eclipse.
+- JDK 6 or above should be present on the system, 
+- Download Eclipse for Java EE (kepler or above) from eclipse site - https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2
+- Setup tomcat 7 as server runtime for eclipse following eclipse instructions. http://www.eclipse.org/webtools/jst/components/ws/M4/tutorials/InstallTomcat.html
 - Setup mysql server (5.1 or above), keep user and pwd as root if possible and start it.
 - Database script is present in Git under sqlschema folder. Import 'wish' database to mysql instance from sqlschema/wish.sql
 - Clone the project from git.
