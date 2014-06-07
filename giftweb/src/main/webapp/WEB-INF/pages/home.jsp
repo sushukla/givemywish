@@ -13,10 +13,13 @@
 
 <script type="text/javascript">
 	jQuery(document).ready(function() {
-		jQuery('#mycarousel').jcarousel();
+		jQuery('#mycarouselul').jcarousel();
 	});
 	jQuery(document).ready(function() {
-		jQuery('#popularcarousel').jcarousel();
+		jQuery('#bestsellercarouselul').jcarousel();
+	});
+	jQuery(document).ready(function() {
+		jQuery('#popularcarouselul').jcarousel();
 	});
 </script>
 </head>
@@ -36,7 +39,13 @@
 				</div>
 				<div id="bestsellerCarousel">
 					<div id="bestsellerBanner">
-					<b> Best Selling </b>
+					<b> Best Sellers </b>
+					</div>
+					<h:bestSellerCarousel carouselItems="${carouselItems}"></h:bestSellerCarousel>
+				</div>
+				<div id="popularCarousel">
+					<div id="popularBanner">
+					<b> Popular Products </b>
 					</div>
 					<h:popularCarousel carouselItems="${carouselItems}"></h:popularCarousel>
 				</div>

@@ -43,6 +43,16 @@
 	width: 84%;
 }
 
+#bannerhdrightinvite {
+	float: left;
+	width: 84%;
+}
+
+#bannerhdrightpayments {
+	float: left;
+	width: 84%;
+}
+
 #bannertile {
 	float: left;
 	width:33%;
@@ -71,6 +81,10 @@
 	text-decoration: none;
 }
 
+#headera {
+	text-decoration: none;
+}
+
 #bottompanel {
 	width: 100%;
 	float: left;
@@ -95,7 +109,7 @@
 }
 
 #bottomcats {
-	height: 30%;
+	height: 20%;
 	width: 100%;
 	float:left;
 	border-bottom: 1px solid #DDDDDD;
@@ -103,7 +117,7 @@
 }
 
 #bestsellerCarousel {
-	height: 35%;
+	height: 30%;
 	width: 100%;
 	float:left;
 	border-bottom: 1px solid #DDDDDD;
@@ -111,6 +125,19 @@
 }
 
 #bestsellerBanner {
+	height: 15%;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+#popularCarousel {
+	height: 30%;
+	width: 100%;
+	float:left;
+	border-bottom: 1px solid #DDDDDD;
+  	margin-bottom: 1em;
+}
+
+#popularBanner {
 	height: 15%;
 	border-bottom: 1px solid #DDDDDD;
 }
@@ -290,7 +317,7 @@ li {
 }
 
 #catlink {
-	margin-right: 1em;
+	margin-right: 3em;
 }
 
 #srchbox {

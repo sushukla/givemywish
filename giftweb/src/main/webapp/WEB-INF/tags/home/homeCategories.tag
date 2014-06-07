@@ -3,7 +3,7 @@
 <c:forEach items="${catList}" var="element">
 	<div id="homecats">
 		<div id="catlink">
-			<a href="/giftweb/list/${element.id}">${element.name}</a>
+			<a id="headera" href="/giftweb/list/${element.id}">${element.name}</a>
 		</div>
 	</div>
 </c:forEach>

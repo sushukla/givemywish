@@ -2,7 +2,7 @@
 <%@ attribute name="childCats" required="true" type="java.util.List"%>
 <%@ attribute name="uid" required="false" type="java.lang.String"%>
 <div>
-<ul id="mycarousel" class="jcarousel-skin-tango">
+<ul id="mycarouselul" class="jcarousel-skin-tango">
 	<c:forEach items="${childCats}" var="element">
 		<li>
 			<img src="${element.catimg}" alt="Smiley face" width="100"
